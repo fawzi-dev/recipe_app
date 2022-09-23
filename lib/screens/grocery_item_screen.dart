@@ -10,23 +10,19 @@ import '../models/fooderlich_pages.dart';
 
 class GroceryItemScreen extends StatefulWidget {
   final Function(GroceryItem) onCreate;
-
   final Function(GroceryItem) onUpdate;
-
   final GroceryItem? item;
-
   final bool isUpdating;
-
   final int index;
 
   static MaterialPage page(
       {GroceryItem? item,
       int index = -1,
       required Function(GroceryItem) onCreate,
-      required Function(GroceryItem) onUpdate}) {
+      required Function(GroceryItem,int index) onUpdate}) {
     return MaterialPage(
-      name: FooderlichPages.splashPath,
-      key: ValueKey(FooderlichPages.splashPath),
+      name: FooderlichPages.groceryItemDetails,
+      key: ValueKey(FooderlichPages.groceryItemDetails),
       child: GroceryItemScreen(
         item: item,
         index: index,

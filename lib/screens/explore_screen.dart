@@ -14,31 +14,31 @@ class ExploreScreen extends StatefulWidget {
 class _ExploreScreenState extends State<ExploreScreen> {
   final mockService = MockFooderlichService();
 
-  late ScrollController _controller;
+  // late ScrollController _controller;
 
   @override
   void initState() {
     super.initState();
-    _controller = ScrollController();
-    _controller.addListener(_scroller);
+    // _controller = ScrollController();
+    // _controller.addListener(_scroller);
   }
 
-  _scroller() {
-    if (_controller.offset >= _controller.position.maxScrollExtent &&
-        _controller.position.outOfRange) {
-      print('Reached the bottom');
-    } else if (_controller.offset <= _controller.position.minScrollExtent &&
-        _controller.position.outOfRange) {
-      print('Reached the top');
-    }
-  }
+  // _scroller() {
+  //   if (_controller.offset >= _controller.position.maxScrollExtent &&
+  //       _controller.position.outOfRange) {
+  //     print('Reached the bottom');
+  //   } else if (_controller.offset <= _controller.position.minScrollExtent &&
+  //       _controller.position.outOfRange) {
+  //     print('Reached the top');
+  //   }
+  // }
 
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    super.dispose();
-    _controller.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   // TODO: implement dispose
+  //   super.dispose();
+  //   _controller.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +49,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
           if (snapshot.connectionState == ConnectionState.done) {
             // final recipe = ;
             return ListView(
-              controller: _controller,
+              // controller: _controller,
               physics: const BouncingScrollPhysics(),
               children: [
                 TodayRecipeListView(
