@@ -1,0 +1,5 @@
+{
+     "dart.flutterHotReloadOnSave": "allIfDirty",
+     "dart.hotReloadOnSave": "allIfDirty",
+     "java.configuration.updateBuildConfiguration": "automatic"
+}
