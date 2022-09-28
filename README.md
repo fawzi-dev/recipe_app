@@ -3,6 +3,8 @@
 This is my current under-development project.
 
 ![recipe_app](https://user-images.githubusercontent.com/84202263/192815368-e978095b-5fd2-4f6f-9fa2-0f79317bfb47.gif)
+![recipe_app (1)](https://user-images.githubusercontent.com/84202263/192816072-601422eb-1304-456b-9f07-0e670e07d0fe.gif)
+
 
 
 ## Getting Started
