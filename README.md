@@ -1,7 +1,7 @@
 # recipe_app
 
 This is my current under-development project.
-https://user-images.githubusercontent.com/84202263/192814268-bd533481-80f1-4da0-b915-a7986dbcb8e9.mp4
+![recipe_app](https://user-images.githubusercontent.com/84202263/192815368-e978095b-5fd2-4f6f-9fa2-0f79317bfb47.gif)
 
 ## Getting Started
 
