@@ -1,6 +1,6 @@
 # recipe_app
 
-A new Flutter project.
+This is my current under-development project.
 
 ## Getting Started
 
