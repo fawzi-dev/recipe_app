@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:recipe_app/screens/screens.dart';
 import 'package:recipe_app/utils/myOwnTheme.dart';
 import 'models/grocery_manager.dart';
 import 'models/models.dart';
 import 'models/profile_manager.dart';
 import 'navigation/app_router.dart';
-import 'screens/splash_screen.dart';
 
 void main() {
   runApp(
